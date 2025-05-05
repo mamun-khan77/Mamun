@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tech Innovations</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Health Tech Innovations</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" data-section="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-section="about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solutions" data-section="solutions">Our Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-section="contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="content-section active">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 hero-content">
+                    <h1>Transforming Healthcare Through Technology</h1>
+                    <p class="lead">Innovative solutions for healthcare providers, patients, and researchers worldwide</p>
+                    <button id="exploreBtn" class="btn btn-primary btn-lg">Explore Our Solutions</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="section-title">About Us</h2>
+                    <p>Health Tech Innovations was founded in 2015 with a mission to transform healthcare delivery through innovative technological solutions. Our team of healthcare professionals, engineers, and data scientists work together to create tools that improve patient outcomes and streamline healthcare operations.</p>
+                    <p>Our vision is to create a healthcare ecosystem where technology enables better care, better decisions, and better lives. We believe in a patient-centered approach where technology serves to enhance the human connection in healthcare, not replace it.</p>
+                    <h3 class="mt-4">Our Values</h3>
+                    <ul>
+                        <li>Innovation - We continuously push boundaries to create solutions that address complex healthcare challenges.</li>
+                        <li>Integrity - We uphold the highest standards of ethics and privacy in all our operations.</li>
+                        <li>Impact - We measure our success by the positive difference we make in healthcare outcomes.</li>
+                        <li>Inclusion - We design solutions that are accessible to diverse populations and healthcare settings.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/api/placeholder/600/400" alt="Health Tech Team" class="img-fluid rounded shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="solutions" class="content-section">
+        <div class="container">
+            <h2 class="section-title">Our Solutions</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="kk.jpg" class="card-img-top" alt="Patient Monitoring System">
+                        <div class="card-body">
+                            <h5 class="card-title">Patient Monitoring System</h5>
+                            <p class="card-text">Real-time monitoring solution that tracks vital signs and alerts healthcare providers to potential issues before they become critical.</p>
+                            <button class="btn btn-outline-primary solution-btn" data-solution="monitoring">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="sy.jfif" class="card-img-top" alt="Healthcare Analytics Platform">
+                        <div class="card-body">
+                            <h5 class="card-title">Healthcare Analytics Platform</h5>
+                            <p class="card-text">Data-driven insights platform that helps healthcare providers improve operational efficiency and patient outcomes through predictive analytics.</p>
+                            <button class="btn btn-outline-primary solution-btn" data-solution="analytics">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100">
+                        <img src="kk.jpg" class="card-img-top" alt="Telemedicine Suite">
+                        <div class="card-body">
+                            <h5 class="card-title">Telemedicine Suite</h5>
+                            <p class="card-text">Comprehensive virtual care platform that enables secure video consultations, remote patient monitoring, and integrated electronic health records.</p>
+                            <button class="btn btn-outline-primary solution-btn" data-solution="telemedicine">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="solution-details mt-5" id="monitoring-details" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h3>Patient Monitoring System</h3>
+                        <p>Our advanced Patient Monitoring System leverages IoT technology to provide continuous monitoring of patient vital signs, medication adherence, and activity levels. The system uses machine learning algorithms to detect patterns and anomalies, alerting healthcare providers to potential issues before they become critical.</p>
+                        <p>Key features include:</p>
+                        <ul>
+                            <li>Real-time vital sign monitoring</li>
+                            <li>Customizable alert thresholds</li>
+                            <li>Secure data transmission and storage</li>
+                            <li>Integration with electronic health records</li>
+                            <li>Mobile app for patients and providers</li>
+                        </ul>
+                        <button class="btn btn-secondary back-to-solutions mt-3">Back to All Solutions</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="solution-details mt-5" id="analytics-details" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h3>Healthcare Analytics Platform</h3>
+                        <p>Our Healthcare Analytics Platform transforms raw healthcare data into actionable insights. By analyzing patterns across large datasets, our platform helps healthcare organizations identify opportunities for improvement in clinical outcomes, operational efficiency, and patient satisfaction.</p>
+                        <p>Key features include:</p>
+                        <ul>
+                            <li>Predictive analytics for patient risk stratification</li>
+                            <li>Operational dashboards for resource management</li>
+                            <li>Clinical decision support tools</li>
+                            <li>Population health management</li>
+                            <li>Custom reporting and visualization</li>
+                        </ul>
+                        <button class="btn btn-secondary back-to-solutions mt-3">Back to All Solutions</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="solution-details mt-5" id="telemedicine-details" style="display: none;">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h3>Telemedicine Suite</h3>
+                        <p>Our Telemedicine Suite bridges the gap between patients and providers with a comprehensive virtual care platform. This solution enables healthcare providers to deliver quality care remotely, improving access for patients regardless of their location.</p>
+                        <p>Key features include:</p>
+                        <ul>
+                            <li>High-definition secure video consultations</li>
+                            <li>Integrated scheduling and billing</li>
+                            <li>Virtual waiting room</li>
+                            <li>Remote prescription management</li>
+                            <li>Seamless EHR integration</li>
+                        </ul>
+                        <button class="btn btn-secondary back-to-solutions mt-3">Back to All Solutions</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <h2 class="section-title">Contact Us</h2>
+                    <p>Have questions about our solutions or want to schedule a demo? Reach out to our team using the form, and we'll get back to you as soon as possible.</p>
+                    <div class="mt-4">
+                        <p><i class="fas fa-map-marker-alt me-2 text-primary"></i> 123 Innovation Drive, Tech City, TC 10101</p>
+                        <p><i class="fas fa-phone me-2 text-primary"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope me-2 text-primary"></i> info@healthtechinnovations.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            <div class="invalid-feedback">Please enter your name.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="your.email@example.com" required>
+                            <div class="invalid-feedback">Please enter a valid email address.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Your message here..." required></textarea>
+                            <div class="invalid-feedback">Please enter your message.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="mt-3" id="formStatus" style="display: none;"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Health Tech Innovations</h4>
+                    <p>Transforming healthcare through innovative technology solutions.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-light footer-link" data-section="home">Home</a></li>
+                        <li><a href="#about" class="text-light footer-link" data-section="about">About Us</a></li>
+                        <li><a href="#solutions" class="text-light footer-link" data-section="solutions">Our Solutions</a></li>
+                        <li><a href="#contact" class="text-light footer-link" data-section="contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect With Us</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-4 mb-4 bg-light">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>&copy; 2025 Health Tech Innovations. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
